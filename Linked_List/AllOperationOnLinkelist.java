@@ -104,6 +104,7 @@ public class AllOperationOnLinkelist {
 //            }
 //        }
         public void printList(){
+           // System.out.println(head);
             Node curr=head;
             while(curr!=null){
                 System.out.print(curr.data+"->");
